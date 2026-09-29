@@ -4,9 +4,6 @@ from flask import Flask, render_template_string, jsonify
 import os
 import datetime
 
-# Add this line to test failure
-test_failure = undefined_variable_will_cause_import_error
-
 app = Flask(__name__)
 
 # HTML template
